@@ -5,7 +5,7 @@ import cups
 
 #main function to runn program. Not currently needed, but anticipating future functionality
 def main():
-	fileManagement('/home/pi/Printer/Queue')
+	fileManagement('/home/pi/Printer/Queue/')
 
 #prints files in the queue (filepath) then deletes them
 def fileManagement(filepath):
